@@ -3,7 +3,7 @@ namespace clase4.Models;
 public class Game
 {
     public string Name {get; set;}
-    public int Year {get; set;}
+    public int Realease {get; set;}
     public string Gender {get; set;}
     public bool IsMultiPlayer {get; set;}
     public decimal Price {get;set;}
