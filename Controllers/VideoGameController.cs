@@ -19,6 +19,7 @@ public class VideoGameController : Controller
 
     public IActionResult Index()
     { 
+        var clientList = ClientService.Getall();
         var gameList = GameService.GetAll();
         var gameListViewModel = new List<GameListViewModel>();
 
