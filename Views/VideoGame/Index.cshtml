@@ -1,0 +1,10 @@
+@model List<Game>
+
+<h2>Esta es la vista de video game</h2>
+
+@{if(Model != null){
+    foreach(var item in Model){
+        <div><a>@item.Name</a> - lanzamniento: <p>@item.Year</p></div>
+        }
+    }
+}
